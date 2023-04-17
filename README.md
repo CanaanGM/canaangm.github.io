@@ -4,6 +4,7 @@
 
 ---
 ### easily startdeveloping
+
 1. clone it
 2. open it with VSCode, then open it in Dev Container
     - if there's no `.devcontainer` file create one by clicking on the lower most left of VSC window or `ctr + shift + p` -> dev container
