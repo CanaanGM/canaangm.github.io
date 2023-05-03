@@ -4,7 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-## Greetings~! 
+## Greetings~!
+### Placeholder till i'm done with building my own site
+
  this is a place where i write about what i find interesting, fun or informative!
 
 May it be of help!
