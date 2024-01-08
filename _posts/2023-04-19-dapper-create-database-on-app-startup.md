@@ -4,7 +4,7 @@ title: dapper create database on app startup
 date: 2023-04-19 18:59 +0300
 
 categories: [development, databases]
-tags: [postgres, dotnet-7, auto-migration, databases, docker]
+tags: [postgres, dotnet, auto-migration, databases, docker]
 
 ---
 ## Using Dapper to auto-migrate a postgres database and create the database
