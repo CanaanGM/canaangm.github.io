@@ -67,6 +67,7 @@ dotnet build && dotnet watch
 ```
 
 - if all is well, navigate in your browser of choice to the application url and you should see a welcome page similar to this:
+![IdentityServer4_welcomePage](/assets/images/identity-server/IdentityServer4_welcomePage.png)
 
 ## add a Register page
 
