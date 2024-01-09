@@ -440,6 +440,7 @@ volumes:
 
 ## customizing 
 
+the stock option will give u these claims ![identityServer_tokenClaims](/assets/images/identity-server/identityServer_tokenClaims.png)
 
 you can extend it thus:
 
