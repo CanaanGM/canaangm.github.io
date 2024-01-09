@@ -58,7 +58,6 @@ dotnet ef migrations add changedDBProvider -o Data/Migrations
 ```
 - there's one thing i like to do, which is alter the way the seeding is done ; instead of a prompt in the terminal if u'd like to seed or not i just make it automatic:
 > comment the `if` statement @line 25, and put the `Seed` method call b4 the `app.run`
-![IdentityServer_seeding](/assets/images/identity-server/IdentityServer_seeding.png)
 > while you're at it u may wanna adjust the default users in there as well but i change them **after** i ensure everything is working.
 
 4. you should test at this point, `cd` into the directory and
@@ -66,8 +65,7 @@ dotnet ef migrations add changedDBProvider -o Data/Migrations
 dotnet build && dotnet watch
 ```
 
-- if all is well, navigate in your browser of choice to the application url and you should see a welcome page similar to this:
-![IdentityServer4_welcomePage](/assets/images/identity-server/IdentityServer4_welcomePage.png)
+- if all is well, navigate in your browser of choice to the application url and you should see a welcome page 
 
 ## add a Register page
 
@@ -440,8 +438,6 @@ volumes:
 ```
 
 ## customizing 
-
-the stock option will give u these claims ![identityServer_tokenClaims](/assets/images/identity-server/identityServer_tokenClaims.png)
 
 you can extend it thus:
 
