@@ -65,10 +65,21 @@ in `.gitignore` depending on the plugins you use, either ignore the entire `.obs
 .vscode
 ```
 
-now you can add an alias to go immediately into the *notes* folder, or set a [cron job](https://github.com/termux/termux-app/discussions/3297) to auto pull/push at let's say midnight 
+now you can add an *alias* to go immediately cd into the *notes* folder, or set a [cron job](https://github.com/termux/termux-app/discussions/3297) to auto pull/push at let's say midnight 
 
 alias example:
 - `alias <alias name>='cd /data/data/com.termux/files/home/storage/shared/<your notes folder>'`  
+
+some stuff i usually add in termux `~/.zshrc` file:
+
+```bash
+alias update = "pkg update && pkg upgrade -y"
+# for github
+eval "$(ssh-agent) -s"
+ssh-add ~/.ssh/[your github key]
+# to start the ssh daemon
+sshd
+```
 
 ---
 
