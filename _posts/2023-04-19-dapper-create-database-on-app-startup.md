@@ -7,6 +7,7 @@ categories: [development, databases]
 tags: [postgres, dotnet, auto-migration, databases, docker]
 
 ---
+
 ## Using Dapper to auto-migrate a postgres database and create the database
 
 

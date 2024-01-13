@@ -6,10 +6,6 @@ categories: [development]
 tags: [databases, environment-setup, docker]
 ---
 
-# Databases on demand for your dev environment
-
-## why u wanna do this 
-
 instead of running multiple server (mySql, SQLServer, Postgres, . . .) and have to either stop/start their service, you can just set them up using docker and use them when u want, or have multiple instances of the same provider running on different ports easily.
 
 or when setting up a new windows machine, instead of installing all one by one, you have them on demand, for linux there's ansible. . . 

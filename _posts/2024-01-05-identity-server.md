@@ -8,12 +8,9 @@ tags: [dotnet, docker, microservice, auth-provider]
 published: true
 ---
 
-
-## how and why
+before we begin always see the [Documentation](https://docs.duendesoftware.com/identityserver/v6) and [examples](https://github.com/duendesoftware/samples) provided by the [creators](https://github.com/DuendeSoftware) !
 
 ### Why you would do this
-
-before we begin always see the [Documentation](https://docs.duendesoftware.com/identityserver/v6) and [examples](https://github.com/duendesoftware/samples) provided by the [creators](https://github.com/DuendeSoftware) !
 
 it can be a one stop shop for authentication to all new apps / projects you'd create in the future. 
 or for authentication with other services across your home lab.

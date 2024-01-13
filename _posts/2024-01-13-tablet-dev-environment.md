@@ -6,11 +6,16 @@ categories: [setup]
 tags: [android, tutorial]
 ---
 
-# why 
+**basically** an **on the go linux development environment** for your **tablet** and **phone**, i mainly use it to **sync data** between my devices using git, and some light dev work when i don't have access to my pc.
 
 > Termux is an Android terminal emulator and Linux environment application that works directly with no rooting or setup required. [termux wiki](https://wiki.termux.com/wiki/Main_Page)
 
-**basically** an **on the go linux development environment** for your **tablet** and **phone**, i mainly use it to **sync data** between my devices using git, and some light dev work when i don't have access to my pc.
+
+- download it from [F-Droid](https://f-droid.org/en/packages/com.termux/)
+- it's [github repo](https://github.com/termux/termux-app)
+- [wiki](https://wiki.termux.com/wiki/Main_Page)
+
+> ports (change them for more security), most services ports are their normal ports prefixed with `80`
 
 ---
 
@@ -20,6 +25,8 @@ tags: [android, tutorial]
 ```bash
 termux-setup-storage
 ```
+
+the folder location is `/data/data/com.termux/files/usr/`.
 
 ---
 
@@ -125,19 +132,4 @@ plugins=(
 
 ---
 
-## Miscellaneous
-
-### links
-
-- [github repo](https://github.com/termux/termux-app)
-- download it from [F-Droid](https://f-droid.org/en/packages/com.termux/)
-- [wiki](https://wiki.termux.com/wiki/Main_Page)
-
-### file location
-
-`/data/data/com.termux/files/usr/`
-
-### ports (change them for more security), most services ports are their normal ports prefixed with `80`
-
-- ssh: 8022
-- ftp: 8021
+that's it, now you have a small dev environment in ur pocket or - *if your tablet is some what big* - on something that won't die in ~2 hrs xD 
