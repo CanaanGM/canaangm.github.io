@@ -1,6 +1,6 @@
 ---
 layout: post
-title: dapper create database on app startup
+title: dapper auto apply migrations
 date: 2023-04-19 18:59 +0300
 
 categories: [development, databases]

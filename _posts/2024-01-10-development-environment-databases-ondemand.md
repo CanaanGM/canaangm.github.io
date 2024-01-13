@@ -3,7 +3,7 @@ layout: post
 title: development-environment-databases-ondemand
 date: 2024-01-10 20:40 +0300
 categories: [development]
-tags: [databases, enviornment-setup, docker]
+tags: [databases, environment-setup, docker]
 ---
 
 # Databases on demand for your dev environment

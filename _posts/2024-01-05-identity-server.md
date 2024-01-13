@@ -1,6 +1,6 @@
 ---
 layout: post
-title: identity-server
+title: Home lab identity server 
 date: 2024-01-05 09:20 +0300
 
 categories: [development, OAuth]

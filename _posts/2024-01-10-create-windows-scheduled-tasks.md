@@ -1,6 +1,6 @@
 ---
 layout: post
-title: create-windows-scheduled-tasks
+title: Windows scheduled tasks
 date: 2024-01-10 23:20 +0300
 categories: [automation]
 tags: [scheduled-tasks, windows]
