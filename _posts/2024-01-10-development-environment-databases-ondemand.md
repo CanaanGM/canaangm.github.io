@@ -1,6 +1,6 @@
 ---
 layout: post
-title: development-environment-databases-ondemand
+title: on-demand DBMS
 date: 2024-01-10 20:40 +0300
 categories: [development]
 tags: [databases, environment-setup, docker]
